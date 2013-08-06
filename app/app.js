@@ -11,7 +11,7 @@ Ext.application({
 	'Ext.form.field.Hidden',
     'Ext.form.field.Date'
 	],
-    controllers: ['Main','TabMain','Empleador','Trabajador','Remuneracion'],
+    controllers: ['Main','TabMain','Empleador','Trabajador','Remuneracion','LoginUser'],
     views: [],
     name: 'fnv',
     autoCreateViewport: true

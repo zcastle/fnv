@@ -105,7 +105,12 @@ Ext.define('fnv.view.GridTrabajador', {
 	        	name: 'btnNuevo',
 	        	scale: 'medium',
 	        	iconCls: 'ico-nuevo'
-	        },{
+	        }/*,{
+	        	text: 'Exportar',
+	        	name: 'btnExportar',
+	        	scale: 'medium',
+	        	iconCls: 'ico-exportar'
+	        }*/,{
 	        	text: 'Remuneraciones',
 	        	name: 'btnRemuneraciones',
 	        	scale: 'medium',

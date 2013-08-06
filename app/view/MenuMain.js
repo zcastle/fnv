@@ -3,7 +3,8 @@ Ext.define('fnv.view.MenuMain',{
 	alias: 'widget.menumain',
 	vertical: true,
 	defaults: {
-		textAlign: 'left'
+		textAlign: 'left',
+		width: 110
 	},
 	items: [{
         text: 'Empleador',
@@ -11,5 +12,21 @@ Ext.define('fnv.view.MenuMain',{
     },{
         text: 'Trabajador',
         action: 'mnuTrabajador'
+    },{
+    	text: 'Exportar',
+    	action: 'mnuExportar'/*,
+    	menu: [{
+    		text: 'Empleador',
+    		action: 'exportarEmpleador'
+    	},{
+    		text: 'Trabajador',
+    		action: 'exportarTrabajador'
+    	},{
+    		text: 'Remuneracion',
+    		action: 'exportarRemuneracion'
+    	},{
+    		text: 'Resumen',
+    		action: 'exportarResumen'
+    	}]*/
     }]
 })

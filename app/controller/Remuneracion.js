@@ -68,7 +68,8 @@ Ext.define('fnv.controller.Remuneracion', {
             co_tipo_documento_empleador: valuesEmpleador.co_tipo_documento_empleador,
             nu_documento_empleador: valuesEmpleador.nu_documento_empleador,
             co_tipo_documento_trabajador: valuesTrabajador.co_tipo_documento_trabajador,
-            nu_documento_trabajador: valuesTrabajador.nu_documento_trabajador
+            nu_documento_trabajador: valuesTrabajador.nu_documento_trabajador,
+            co_tipo_seguro: '00'
         });
         var edit = gridRemuneracion.plugins[0];
         edit.cancelEdit();

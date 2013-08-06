@@ -104,12 +104,17 @@ Ext.define('fnv.view.GridEmpleador', {
             displayMsg: 'Mostrando registros {0} - {1} de {2}',
             emptyMsg: "No hay registros para mostrar",
             items:[
-            '-', {
+            '-',{
 	        	text: 'Nuevo',
 	        	name: 'btnNuevo',
 	        	scale: 'medium',
 	        	iconCls: 'ico-nuevo'
-	        }]
+	        }/*,{
+	        	text: 'Exportar',
+	        	name: 'btnExportar',
+	        	scale: 'medium',
+	        	iconCls: 'ico-exportar'
+	        }*/]
         });
 		this.callParent(arguments);
 	}

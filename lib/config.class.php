@@ -1,9 +1,9 @@
 <?php
 
 class config {
-    private $server = 'localhost'; //mb12012.dyndns.org
+    private $server = '192.168.0.2';
     private $username = 'root';
-    private $password = '123456';
+    private $password = 'Jcvldc..';
     private $database_name = 'fnv';
     
     public function getServer() {

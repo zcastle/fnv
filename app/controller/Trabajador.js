@@ -37,6 +37,9 @@ Ext.define('fnv.controller.Trabajador', {
             'gridtrabajador button[name=btnNuevo]': {
                 click: this.onClickBtnNuevo
             },
+            'gridtrabajador button[name=btnExportar]': {
+                click: this.onClickBtnExportar
+            },
             'gridtrabajador button[name=btnRemuneraciones]': {
                 click: this.onClickBtnRemuneraciones
             },
@@ -165,5 +168,8 @@ Ext.define('fnv.controller.Trabajador', {
             this.getTrabajadorStore().proxy.extraParams.textbuscar = text.getValue();
             this.getTrabajadorStore().loadPage(1);
         }
+    },
+    onClickBtnExportar: function(){
+        //window.open("data/exportar/empleador_f2.php", "_blank");
     }
 });
